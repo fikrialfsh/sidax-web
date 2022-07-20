@@ -32,7 +32,7 @@ class UmumController extends Controller
     {
 
         $client = new \GuzzleHttp\Client();
-        $request = $client->post('https://last-api-2022.herokuapp.com/predict', [
+        $request = $client->post('https://sidax.herokuapp.com/predict', [
             'json'=>[
                 'text' => $request->text
             ]

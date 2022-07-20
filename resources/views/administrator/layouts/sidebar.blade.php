@@ -59,12 +59,12 @@
                   <p>Data Training</p>
                 </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a href="/admin/data-testing" class="nav-link @yield('data-testing')">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Data Testing</p>
                 </a>
-              </li>
+              </li> -->
             </ul>
           </li>
         </ul>

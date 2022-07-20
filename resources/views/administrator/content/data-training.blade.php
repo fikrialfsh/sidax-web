@@ -92,8 +92,8 @@
                   {{ csrf_field()}}
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Sentimen</label>
-                    <textarea name="sentimen" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Masukkan Sentimen..." required></textarea>
+                    <label for="exampleFormControlTextarea1">Tweet</label>
+                    <textarea name="sentimen" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Masukkan Tweet..." required></textarea>
                   </div>
                   <div class="form-group">
                     <label for="">Akun Twitter</label>
@@ -137,7 +137,7 @@
                   <thead>
                   <tr>
                     <th>No</th>
-                    <th>Sentimen</th>
+                    <th>Tweet</th>
                     <th>Tanggal</th>
                     <th>Akun Twitter</th>
                     <th>Kategori</th>

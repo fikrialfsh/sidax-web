@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Lato:400,400i,700,700i" rel="stylesheet">
 
   <!-- Any Chart -->
   <script src="https://cdn.anychart.com/samples/tag-cloud/the-old-man-and-the-sea/ignore-items.js"></script>
@@ -27,7 +27,15 @@
   <link href="{{ asset ('assets/vendor/modal-video/css/modal-video.min.css') }}" rel="stylesheet}" type="text/css">
   <link href="{{ asset ('assets/vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet" type="text/css">
   <link href="{{ asset ('assets/vendor/aos/aos.css') }}" rel="stylesheet" type="text/css">
-
+   <!-- Favicon-->
+   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+   <!-- Font Awesome icons (free version)-->
+   <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+   <!-- Google fonts-->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+   <!-- <link href="{{asset ('css/styles.css')}}" rel="stylesheet" /> -->
   <!-- DataTables -->
   <link rel="stylesheet" href="{{asset ('DataTables/datatables.min.css')}}">
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -56,16 +64,13 @@
 
       <div id="logo" class="pull-left">
         <h1><a href="/"><span>SI</span>DAX</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>-->
       </div>
-
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#main">Beranda</a></li>
-          <li><a href="#get-started">Tentang</a></li>
+          <li><a href="#contact">Periksa Berita</a></li>
+          <!-- <li><a href="#get-started">Tentang</a></li> -->
           <li><a href="#team">Statistik</a></li>
-          <li><a href="#contact">Scan Berita</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -73,11 +78,11 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div class="hero-container" data-aos="fade-in">
+    <div class="hero-container" data-aos="fade-out">
       <h1></h1>
-      <!-- <h1>WILUJENG SUMPING!</h1> -->
-      <h1>SIDAX - Sistem Deteksi Hoaks</h1>
-      <img src="{{ asset ('assets/img/landing-page.jpg') }}" style="width: 350px" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
+      <h1>Sistem Deteksi Hoax</h1>
+      <!-- <h3>Sistem Deteksi Hoaks</h3> -->
+      <!-- <img src="{{ asset ('assets/img/landing-page.jpg') }}" style="width: 350px" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100"> -->
       <a href="#contact" class="btn-get-started scrollto">Periksa Berita</a>
     </div>
   </section><!-- End Hero Section -->
@@ -85,23 +90,7 @@
   <main id="main">
 
     <!-- ======= Get Started Section ======= -->
-    <section id="get-started" class="padd-section text-center">
-
-      <div class="container" data-aos="fade-up">
-        <div class="section-title text-center">
-
-          <h2>SIDAX -Sistem Deteksi Hoax</h2>
-          <!-- <img src="{{ asset ('assets/img/west_java.png') }}" class="img-fluid"> -->
-          <p class="separator">SIDAX, Sistem Deteksi Hoax, adalah aplikasi untuk mendeteksi berita hoax tentang virus corona yang berasal dari twitter</p>
-
-        </div>
-      </div>
-
-      <!-- <div class="container-fluid" style="padding:0px">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1206524.8752788703!2d107.1356167155011!3d-6.825147970015075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0xbc18a454fc8e9d7e!2sJawa%20Barat!5e0!3m2!1sid!2sid!4v1623649017235!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
-      </div> -->
-
-    </section><!-- End Get Started Section -->
+ <!-- End Get Started Section -->
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="padd-section">
 
@@ -109,7 +98,7 @@
           <div class="col-lg-12 col-md-6">
             <div class="section-title text-center">
               <h2>Coba Periksa</h2>
-              <p class="separator">Kamu bisa memasukkan teks berita yang akan dicari kebenarannya</p>
+              <p>Kamu bisa memasukkan teks berita yang akan dicari kebenarannya</p>
             </div>
             <div class="form">
               <form action="/" method="post" role="form" class="php-email-form">

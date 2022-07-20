@@ -134,18 +134,18 @@
         this_form.find('.loading').slideUp();
         var message = document.querySelector('.sent-message');
         var eror = document.querySelector('.error-message');
-        if (data.result == "Fakta"){
+        if (data.result == "FAKTA"){
           message.textContent = 'Teks yang anda masukan termasuk berita FAKTA'
           this_form.find('.sent-message').slideDown();
           // $('.resetbutton').css('display', '');
           // window.location.reload();
-        }else if(data.result == "Hoax"){
+        }else if(data.result == "HOAKS"){
           eror.textContent = 'Teks yang anda masukan terdeteksi sebagai HOAX'
           this_form.find('.error-message').slideDown();
           // $('.resetbutton').css('display', '');
           // window.location.reload();
         }else{
-          eror.textContent = 'Data tidak Ditemukan'
+          eror.textContent = 'Konten yang anda masukkan belum teridentifikasi'
           this_form.find('.error-message').slideDown();
           // $('.resetbutton').css('display', '');
         }
